@@ -589,7 +589,7 @@ body {
     nav {
         margin-top: 0px; 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-end; /* Align links to the right in the row-based header */
     }
     
@@ -689,5 +689,6 @@ body {
         height: 80px; 
     }
 }
+
 
 
