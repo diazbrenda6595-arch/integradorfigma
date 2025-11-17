@@ -674,9 +674,10 @@ body {
     /* Ajustando el footer */
     footer {
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         text-align: center;
         padding: 20px 15px;
+        justify-content: space-between;
     }
 
     footer .derecha {
@@ -689,6 +690,7 @@ body {
         height: 80px; 
     }
 }
+
 
 
 
