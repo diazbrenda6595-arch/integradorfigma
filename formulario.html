@@ -1,0 +1,74 @@
+<!DOCTYPE html>  
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Salud</title>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Kaisei+Decol&family=Joan&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">
+      <img src="img/logo.jpeg" alt="Logo de la clínica">
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="usuarios.html">Servicios</a>
+    </nav>
+  </header>
+
+ 
+  <main>
+  
+  <section class="seccion-formulario" id="turnos">
+    <h1>Turnos</h1>
+    <form action="#" method="post" class="formulario-turno">
+      <label for="nombre-turno">Nombre y Apellido</label>
+      <input type="text" id="nombre-turno" name="nombre-turno" placeholder="Escriba su nombre completo" required>
+
+      <label for="dni-turno">DNI</label>
+      <input type="text" id="dni-turno" name="dni-turno" placeholder="Ingrese su DNI" required>
+
+      <label for="telefono-turno">Teléfono</label>
+      <input type="tel" id="telefono-turno" name="telefono-turno" placeholder="Ingrese su número de contacto" required>
+
+      <label for="fecha-turno">Fecha del Turno</label>
+      <input type="date" id="fecha-turno" name="fecha-turno" required>
+
+      <label for="especialidad-turno">Especialidad</label>
+      <select id="especialidad-turno" name="especialidad-turno" required>
+        <option value="">Seleccione una opción</option>
+        <option value="clinica">Clínica General</option>
+        <option value="pediatria">Pediatría</option>
+        <option value="cardiologia">Cardiología</option>
+        <option value="dermatologia">Dermatología</option>
+      </select>
+      <hr>
+      <button type="submit">Solicitar Turno</button>
+    </form>
+  </section>
+
+  
+  <section class="seccion-formulario" id="informe">
+    <h1>Informe</h1>
+    <form action="#" method="post" class="formulario-informe">
+      <label for="nombre-informe">Nombre y Apellido</label>
+      <input type="text" id="nombre-informe" name="nombre-informe" placeholder="Escriba su nombre completo" required>
+
+      <label for="dni-informe">DNI</label>
+      <input type="text" id="dni-informe" name="dni-informe" placeholder="Ingrese su DNI" required>
+
+      <label for="email-informe">Correo electrónico</label>
+      <input type="email" id="email-informe" name="email-informe" placeholder="Ingrese su correo" required>
+
+      <label for="codigo-informe">Código de Informe</label>
+      <input type="text" id="codigo-informe" name="codigo-informe" placeholder="Ingrese el código del informe" required>
+
+      <button type="submit">Consultar Informe</button>
+    </form>
+  </section>
+</main>

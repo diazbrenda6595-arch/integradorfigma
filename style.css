@@ -1,0 +1,693 @@
+    body {
+      margin: 8;
+      font-family: 'Inria Serif', serif;
+      background-color: #00677D;
+      color: white;
+    }
+
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 40px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo img {
+      height: 200px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      font-size: 11px;
+      font-family: 'Inria Serif', serif;
+    }
+
+    .section img {
+      height: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .section img:hover {
+      transform: scale(1.1);
+    }
+
+    .divider {
+      height: 2px;
+      background-color: white;
+      margin: 10px 0;
+    }
+
+    .wide {
+      padding: 50px 120px;
+      font-size: 30px;
+    }
+
+    .wide img {
+      height: 400px;
+      margin-right: 50px;
+    }
+
+ 
+    .img-informe {
+      height: 300px; /* antes era 200px, ahora mucho más grande */
+      margin-left: 40px;
+      transition: transform 0.3s;
+    }
+
+    .img-informe:hover {
+      transform: scale(1.05);
+    }
+
+    .kaisei {
+      font-family: 'Kaisei Decol', serif;
+      font-size: 30px;
+    }
+
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+
+    .redes {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .icono-red {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.2s;
+    }
+
+    .icono-red:hover {
+      transform: scale(1.1);
+    }
+body {
+      margin: 8;
+      background-color: #004A59;
+      color: white;
+    }
+
+    
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo img {
+      height: 200px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    
+    .contenido {
+      text-align: center;
+      padding: 60px 100px;
+    }
+
+    .contenido h1 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .contenido img {
+      width: 80%;
+      max-width: 900px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    .contenido h2 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .contenido p {
+      font-family: 'Joan', serif;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 60px;
+    }
+
+    
+    .seccion {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      margin: 100px 20px;
+      gap: 30px;
+    }
+
+    .texto {
+      flex: 1;
+    }
+
+    .texto h3 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .texto p {
+      font-family: 'Joan', serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .seccion img {
+      flex: 1;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+    .redes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.icono-red {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.icono-red:hover {
+  transform: scale(1.1);
+}
+
+
+    
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+    /* Contenedor principal del carrusel */
+.carrusel-container {
+    max-width: 800px; 
+    margin: 40px auto; 
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    height: 400px
+}
+
+/* Las imágenes individuales del carrusel */
+.carrusel-slide {
+    width: 100%;
+    height: 100%; /* Asegura que la imagen ocupe la altura definida en el contenedor */
+    
+    position: absolute; /* ✨ CLAVE: Superpone todos los slides */
+    top: 0;
+    left: 0;
+    
+    opacity: 0; /* Empieza invisible */
+    transition: opacity 0.8s ease-in-out; /* Duración de la transición (el fade) */
+}
+
+/* Muestra solo el slide que tiene la clase 'active' */
+.carrusel-slide.active {
+ opacity: 1; /* Transiciona a visible */   
+}
+
+.carrusel-slide img {
+   width: 100%;
+    height: 100%;
+    display: block;
+    /* Esto asegura que la imagen cubra el 100% del espacio sin distorsionarse, 
+       recortando si es necesario. */
+    object-fit: cover; 
+}
+
+/* Estilos de los botones de navegación */
+.carrusel-prev, .carrusel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+.carrusel-prev:hover, .carrusel-next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.carrusel-prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.carrusel-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    body {
+      margin: 0;
+      background-color: #00677D;
+      color: white;
+    }
+
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo img {
+      height: 200px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    main {
+      text-align: center;
+      padding: 60px 80px;
+    }
+
+    .texto-principal {
+      font-family: 'Joan', serif;
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      height: 2px;
+      background-color: white;
+      margin: 30px auto;
+      width: 80%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 60px;
+      justify-items: center;
+      align-items: start;
+      margin: 50px auto;
+      max-width: 1000px;
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card img {
+      width: 220px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      font-family: 'Joan', serif;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .final {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 120px 60px 120px;
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    
+    .redes {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .icono-red {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.2s;
+    }
+
+    .icono-red:hover {
+      transform: scale(1.1);
+    }
+
+  
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+body {
+      margin: 0;
+      background-color: #00677D;
+      color: white;
+      font-family: 'Joan', serif;
+    }
+
+    
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo img {
+      height: 200px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+  
+    main {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 60px;
+    }
+
+    label {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      margin-bottom: 25px;
+      font-family: 'Joan', serif;
+    }
+
+    .divider {
+      height: 2px;
+      background-color: white;
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    button {
+      background-color: white;
+      color: #00677D;
+      font-family: 'Abhaya Libre', serif;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 25px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #004f5e;
+      color: white;
+    }
+
+    
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+   @media (max-width: 768px) {
+    
+    header {
+        flex-direction: row; 
+        padding: 15px 20px; 
+    }
+    
+    .logo img {
+        height: 120px; 
+    }
+    
+    nav {
+        margin-top: 0px; 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Align links to the right in the row-based header */
+    }
+    
+    nav a {
+        margin-left: 15px; 
+        margin-right: 0; 
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    /* Ajuste de padding en contenedores principales para evitar desborde */
+    main, .contenido, .wide {
+        padding: 30px 20px;
+    }
+    
+    /* * CORRECCIÓN CLAVE PARA LA PÁGINA DE INICIO 
+     */
+
+    /* Ajustamos el margen del contenedor final y la hero section */
+    .final, .wide {
+        margin: 0 auto;
+        /* Re-aplicamos el padding para prevenir desborde horizontal */
+        padding: 30px 20px; 
+    }
+    
+    /* Aseguramos que todas las imágenes clave de la home no puedan exceder el 100% de la pantalla */
+    .wide img, .img-informe, .seccion img, .contenido img {
+        max-width: 100%; 
+        height: auto; /* Mantiene la proporción */
+        margin-left: 0; /* Elimina márgenes laterales fijos de escritorio */
+    }
+
+    /* Ajustando la imagen principal en .wide section */
+    .wide {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .wide img {
+        margin: 20px 0;
+    }
+    
+    /* Ajustando Mision/Vision sections */
+    .seccion {
+        /* Change to column layout for mobile */
+        flex-direction: column; 
+        margin: 20px 15px;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .seccion img {
+        max-width: 80%; 
+        order: 1; 
+    }
+
+    .texto {
+        order: 2;
+        text-align: center;
+    }
+    
+    /* Ajustando el grid */
+    .grid {
+        grid-template-columns: 1fr; 
+        grid-gap: 40px;
+        margin: 30px auto; /* Centrado y margen más manejable */
+        padding: 0 15px; /* Pequeño padding interno para que no toque los bordes */
+    }
+
+    /* Ajustando la sección final CTA */
+    .final {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    /* Ajustando el carrusel */
+    .carrusel-container {
+        height: 250px; 
+    }
+    
+    /* Ajustando el footer */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    footer .derecha {
+        order: -1; 
+        margin-bottom: 15px;
+    }
+
+    footer img {
+        margin-top: 15px;
+        height: 80px; 
+    }
+}
+
+
