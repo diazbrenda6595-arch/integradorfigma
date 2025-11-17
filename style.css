@@ -675,14 +675,12 @@ body {
     footer {
         flex-direction: row;
         align-items: flex-start;
-        text-align: center;
         padding: 20px 15px;
         justify-content: space-between;
+        text-align: left;
     }
 
     footer .derecha {
-        order: -1; 
-        margin-bottom: 15px;
     }
 
     footer img {
@@ -690,6 +688,7 @@ body {
         height: 80px; 
     }
 }
+
 
 
 
